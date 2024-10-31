@@ -151,6 +151,7 @@ struct
   let a_onsubmit = Xml.event_handler_attrib "onsubmit"
   let a_onsuspend = Xml.event_handler_attrib "onsuspend"
   let a_ontimeupdate = Xml.event_handler_attrib "ontimeupdate"
+  let a_ontoggle = Xml.event_handler_attrib "ontoggle"
   let a_onundo = Xml.event_handler_attrib "onundo"
   let a_onunload = Xml.event_handler_attrib "onunload"
   let a_onvolumechange = Xml.event_handler_attrib "onvolumechange"

@@ -215,6 +215,7 @@ module type T = sig
   val a_onsubmit : Xml.event_handler -> [> | `OnSubmit] attrib
   val a_onsuspend : Xml.event_handler -> [> | `OnSuspend] attrib
   val a_ontimeupdate : Xml.event_handler -> [> | `OnTimeUpdate] attrib
+  val a_ontoggle : Xml.event_handler -> [> | `OnToggle] attrib
   val a_onundo : Xml.event_handler -> [> | `OnUndo] attrib
   val a_onunload : Xml.event_handler -> [> | `OnUnload] attrib
   val a_onvolumechange : Xml.event_handler -> [> | `OnVolumeChange] attrib
